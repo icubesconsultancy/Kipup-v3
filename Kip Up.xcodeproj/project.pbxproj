@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B71EA0FF1BA1668100CD026C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B71EA0FE1BA1668100CD026C /* main.m */; };
+		B71EA1021BA1668100CD026C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B71EA1011BA1668100CD026C /* AppDelegate.m */; };
+		B71EA1051BA1668100CD026C /* Kip_Up.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B71EA1031BA1668100CD026C /* Kip_Up.xcdatamodeld */; };
+		B71EA1081BA1668100CD026C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B71EA1071BA1668100CD026C /* ViewController.m */; };
+		B71EA10B1BA1668100CD026C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B71EA1091BA1668100CD026C /* Main.storyboard */; };
+		B71EA10D1BA1668100CD026C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B71EA10C1BA1668100CD026C /* Images.xcassets */; };
+		B71EA1101BA1668100CD026C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B71EA10E1BA1668100CD026C /* LaunchScreen.xib */; };
+		B71EA11C1BA1668100CD026C /* Kip_UpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B71EA11B1BA1668100CD026C /* Kip_UpTests.m */; };
+		B71EA1261BA166CF00CD026C /* klogo.png in Resources */ = {isa = PBXBuildFile; fileRef = B71EA1251BA166CF00CD026C /* klogo.png */; };
+		B71EA1321BA18DBE00CD026C /* menuicon.png in Resources */ = {isa = PBXBuildFile; fileRef = B71EA1311BA18DBE00CD026C /* menuicon.png */; };
+		B71EA1351BA190DF00CD026C /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B71EA1341BA190DF00CD026C /* SWRevealViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B71EA1161BA1668100CD026C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B71EA0F11BA1668100CD026C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B71EA0F81BA1668100CD026C;
+			remoteInfo = "Kip Up";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B71EA0F91BA1668100CD026C /* Kip Up.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kip Up.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B71EA0FD1BA1668100CD026C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B71EA0FE1BA1668100CD026C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B71EA1001BA1668100CD026C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B71EA1011BA1668100CD026C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B71EA1041BA1668100CD026C /* Kip_Up.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kip_Up.xcdatamodel; sourceTree = "<group>"; };
+		B71EA1061BA1668100CD026C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B71EA1071BA1668100CD026C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B71EA10A1BA1668100CD026C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B71EA10C1BA1668100CD026C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B71EA10F1BA1668100CD026C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B71EA1151BA1668100CD026C /* Kip UpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kip UpTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B71EA11A1BA1668100CD026C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B71EA11B1BA1668100CD026C /* Kip_UpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Kip_UpTests.m; sourceTree = "<group>"; };
+		B71EA1251BA166CF00CD026C /* klogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = klogo.png; sourceTree = "<group>"; };
+		B71EA1311BA18DBE00CD026C /* menuicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menuicon.png; sourceTree = "<group>"; };
+		B71EA1331BA190DF00CD026C /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = SlideOutMenuFiles/SWRevealViewController.h; sourceTree = "<group>"; };
+		B71EA1341BA190DF00CD026C /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = SlideOutMenuFiles/SWRevealViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B71EA0F61BA1668100CD026C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B71EA1121BA1668100CD026C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B71EA0F01BA1668100CD026C = {
+			isa = PBXGroup;
+			children = (
+				B71EA0FB1BA1668100CD026C /* Kip Up */,
+				B71EA1181BA1668100CD026C /* Kip UpTests */,
+				B71EA0FA1BA1668100CD026C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B71EA0FA1BA1668100CD026C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B71EA0F91BA1668100CD026C /* Kip Up.app */,
+				B71EA1151BA1668100CD026C /* Kip UpTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B71EA0FB1BA1668100CD026C /* Kip Up */ = {
+			isa = PBXGroup;
+			children = (
+				B71EA1001BA1668100CD026C /* AppDelegate.h */,
+				B71EA1011BA1668100CD026C /* AppDelegate.m */,
+				B71EA1061BA1668100CD026C /* ViewController.h */,
+				B71EA1071BA1668100CD026C /* ViewController.m */,
+				B71EA1331BA190DF00CD026C /* SWRevealViewController.h */,
+				B71EA1341BA190DF00CD026C /* SWRevealViewController.m */,
+				B71EA1091BA1668100CD026C /* Main.storyboard */,
+				B71EA10C1BA1668100CD026C /* Images.xcassets */,
+				B71EA1251BA166CF00CD026C /* klogo.png */,
+				B71EA1311BA18DBE00CD026C /* menuicon.png */,
+				B71EA10E1BA1668100CD026C /* LaunchScreen.xib */,
+				B71EA1031BA1668100CD026C /* Kip_Up.xcdatamodeld */,
+				B71EA0FC1BA1668100CD026C /* Supporting Files */,
+			);
+			path = "Kip Up";
+			sourceTree = "<group>";
+		};
+		B71EA0FC1BA1668100CD026C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B71EA0FD1BA1668100CD026C /* Info.plist */,
+				B71EA0FE1BA1668100CD026C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B71EA1181BA1668100CD026C /* Kip UpTests */ = {
+			isa = PBXGroup;
+			children = (
+				B71EA11B1BA1668100CD026C /* Kip_UpTests.m */,
+				B71EA1191BA1668100CD026C /* Supporting Files */,
+			);
+			path = "Kip UpTests";
+			sourceTree = "<group>";
+		};
+		B71EA1191BA1668100CD026C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B71EA11A1BA1668100CD026C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B71EA0F81BA1668100CD026C /* Kip Up */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B71EA11F1BA1668100CD026C /* Build configuration list for PBXNativeTarget "Kip Up" */;
+			buildPhases = (
+				B71EA0F51BA1668100CD026C /* Sources */,
+				B71EA0F61BA1668100CD026C /* Frameworks */,
+				B71EA0F71BA1668100CD026C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kip Up";
+			productName = "Kip Up";
+			productReference = B71EA0F91BA1668100CD026C /* Kip Up.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B71EA1141BA1668100CD026C /* Kip UpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B71EA1221BA1668100CD026C /* Build configuration list for PBXNativeTarget "Kip UpTests" */;
+			buildPhases = (
+				B71EA1111BA1668100CD026C /* Sources */,
+				B71EA1121BA1668100CD026C /* Frameworks */,
+				B71EA1131BA1668100CD026C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B71EA1171BA1668100CD026C /* PBXTargetDependency */,
+			);
+			name = "Kip UpTests";
+			productName = "Kip UpTests";
+			productReference = B71EA1151BA1668100CD026C /* Kip UpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B71EA0F11BA1668100CD026C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Kip Up";
+				TargetAttributes = {
+					B71EA0F81BA1668100CD026C = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					B71EA1141BA1668100CD026C = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = B71EA0F81BA1668100CD026C;
+					};
+				};
+			};
+			buildConfigurationList = B71EA0F41BA1668100CD026C /* Build configuration list for PBXProject "Kip Up" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B71EA0F01BA1668100CD026C;
+			productRefGroup = B71EA0FA1BA1668100CD026C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B71EA0F81BA1668100CD026C /* Kip Up */,
+				B71EA1141BA1668100CD026C /* Kip UpTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B71EA0F71BA1668100CD026C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B71EA1261BA166CF00CD026C /* klogo.png in Resources */,
+				B71EA10B1BA1668100CD026C /* Main.storyboard in Resources */,
+				B71EA1101BA1668100CD026C /* LaunchScreen.xib in Resources */,
+				B71EA10D1BA1668100CD026C /* Images.xcassets in Resources */,
+				B71EA1321BA18DBE00CD026C /* menuicon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B71EA1131BA1668100CD026C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B71EA0F51BA1668100CD026C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B71EA1021BA1668100CD026C /* AppDelegate.m in Sources */,
+				B71EA1051BA1668100CD026C /* Kip_Up.xcdatamodeld in Sources */,
+				B71EA1351BA190DF00CD026C /* SWRevealViewController.m in Sources */,
+				B71EA1081BA1668100CD026C /* ViewController.m in Sources */,
+				B71EA0FF1BA1668100CD026C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B71EA1111BA1668100CD026C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B71EA11C1BA1668100CD026C /* Kip_UpTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B71EA1171BA1668100CD026C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B71EA0F81BA1668100CD026C /* Kip Up */;
+			targetProxy = B71EA1161BA1668100CD026C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B71EA1091BA1668100CD026C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B71EA10A1BA1668100CD026C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B71EA10E1BA1668100CD026C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B71EA10F1BA1668100CD026C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B71EA11D1BA1668100CD026C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B71EA11E1BA1668100CD026C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B71EA1201BA1668100CD026C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Kip Up/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B71EA1211BA1668100CD026C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Kip Up/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B71EA1231BA1668100CD026C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Kip UpTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kip Up.app/Kip Up";
+			};
+			name = Debug;
+		};
+		B71EA1241BA1668100CD026C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Kip UpTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kip Up.app/Kip Up";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B71EA0F41BA1668100CD026C /* Build configuration list for PBXProject "Kip Up" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B71EA11D1BA1668100CD026C /* Debug */,
+				B71EA11E1BA1668100CD026C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B71EA11F1BA1668100CD026C /* Build configuration list for PBXNativeTarget "Kip Up" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B71EA1201BA1668100CD026C /* Debug */,
+				B71EA1211BA1668100CD026C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B71EA1221BA1668100CD026C /* Build configuration list for PBXNativeTarget "Kip UpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B71EA1231BA1668100CD026C /* Debug */,
+				B71EA1241BA1668100CD026C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B71EA1031BA1668100CD026C /* Kip_Up.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B71EA1041BA1668100CD026C /* Kip_Up.xcdatamodel */,
+			);
+			currentVersion = B71EA1041BA1668100CD026C /* Kip_Up.xcdatamodel */;
+			path = Kip_Up.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B71EA0F11BA1668100CD026C /* Project object */;
+}
