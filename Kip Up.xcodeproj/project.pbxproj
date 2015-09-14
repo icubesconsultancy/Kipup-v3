@@ -440,6 +440,7 @@
 				B71EA1211BA1668100CD026C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B71EA1221BA1668100CD026C /* Build configuration list for PBXNativeTarget "Kip UpTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +449,7 @@
 				B71EA1241BA1668100CD026C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
