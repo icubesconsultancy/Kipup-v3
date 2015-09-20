@@ -8,19 +8,23 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController {
+@interface ViewController : UIViewController <UITextFieldDelegate> {
+   // NSURLConnection *currentConnection;
+    
 }
 
 @property (weak, nonatomic) IBOutlet UITextField *firstname;
 @property (weak, nonatomic) IBOutlet UITextField *lastname;
-@property (weak, nonatomic) IBOutlet UIButton *firstlastnext;
+@property (weak, nonatomic) IBOutlet UIButton *homePage;
 
 @property (weak, nonatomic) IBOutlet UITextField *phonenumber;
 @property (weak, nonatomic) IBOutlet UITextField *emailid;
-@property (weak, nonatomic) IBOutlet UIButton *registrationSignup;
+@property (weak, nonatomic) IBOutlet UIButton *registerButton;
 
-@property (weak, nonatomic) IBOutlet UITextField *confirmationcode;
-@property (weak, nonatomic) IBOutlet UIButton *confirmcode;
+@property (weak, nonatomic) IBOutlet UITextField *confirmCode;
+@property (weak, nonatomic) IBOutlet UIButton *confirmButton;
+
+@property (weak, nonatomic) IBOutlet UIButton *sendAgainButton;
 
 
 

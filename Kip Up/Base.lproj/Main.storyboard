@@ -9,7 +9,7 @@
         <!--View Controller-->
         <scene sceneID="L9l-Rk-b4T">
             <objects>
-                <viewController id="wT9-2b-o9K" sceneMemberID="viewController">
+                <viewController id="wT9-2b-o9K" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="X9q-qA-Mmj"/>
                         <viewControllerLayoutGuide type="bottom" id="lET-rk-dL6"/>
@@ -64,7 +64,7 @@
                                 </state>
                                 <connections>
                                     <action selector="firstlastnextpressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="apw-v3-JdJ"/>
-                                    <segue destination="BYZ-38-t0r" kind="modal" modalTransitionStyle="crossDissolve" id="6Ei-ZU-eIb"/>
+                                    <segue destination="BYZ-38-t0r" kind="modal" modalTransitionStyle="crossDissolve" id="ZQn-s0-YXe"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="or" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pe3-2S-1Kc">
@@ -229,7 +229,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RM2-YI-dCe" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="left" id="D31-fl-Iaf"/>
             </objects>
-            <point key="canvasLocation" x="1776" y="1265"/>
+            <point key="canvasLocation" x="997" y="2830"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="BEq-X6-v3B">
@@ -457,7 +457,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ljc-4W-0hm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1329" y="2022"/>
+            <point key="canvasLocation" x="1334" y="2034"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -504,7 +504,11 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="firstlastnextpressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cOH-A8-XPW"/>
+                                    <action selector="firstlastnextpressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Txo-l6-7Lc"/>
+                                    <action selector="homeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0r7-UG-1Og"/>
+                                    <action selector="homePage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Von-I5-wlb"/>
+                                    <action selector="register:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cc0-aG-78m"/>
+                                    <action selector="registerButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eLu-4f-qRT"/>
                                     <segue destination="YlD-bG-qZf" kind="modal" modalTransitionStyle="crossDissolve" id="qEO-h4-MxS"/>
                                 </connections>
                             </button>
@@ -555,8 +559,9 @@
                     </view>
                     <connections>
                         <outlet property="firstlastnext" destination="gox-FA-hSm" id="QDe-eR-Wnb"/>
-                        <outlet property="firstname" destination="JTi-9r-MbI" id="Kdj-OK-d2H"/>
-                        <outlet property="lastname" destination="vVg-va-NYr" id="gST-KL-BmP"/>
+                        <outlet property="firstname" destination="JTi-9r-MbI" id="et3-uc-ZFJ"/>
+                        <outlet property="homePage" destination="gox-FA-hSm" id="TbM-OP-odW"/>
+                        <outlet property="lastname" destination="vVg-va-NYr" id="t4r-eX-Dtz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -566,7 +571,7 @@
         <!--View Controller-->
         <scene sceneID="M08-oK-SaP">
             <objects>
-                <viewController id="YlD-bG-qZf" sceneMemberID="viewController">
+                <viewController id="YlD-bG-qZf" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ODr-d8-rnB"/>
                         <viewControllerLayoutGuide type="bottom" id="NsQ-y7-Ypo"/>
@@ -603,6 +608,8 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="register:" destination="YlD-bG-qZf" eventType="touchUpInside" id="Ef7-40-bY1"/>
+                                    <action selector="registerButton:" destination="YlD-bG-qZf" eventType="touchUpInside" id="DgJ-6M-4KL"/>
                                     <segue destination="70A-BO-mad" kind="modal" modalTransitionStyle="crossDissolve" id="pPC-aj-4E4"/>
                                 </connections>
                             </button>
@@ -685,6 +692,13 @@
                             <constraint firstAttribute="centerX" secondItem="h03-JN-YgV" secondAttribute="centerX" id="wTX-sA-vn6"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="emailid" destination="bWt-Kb-NOR" id="rWA-wa-ADZ"/>
+                        <outlet property="phonenumber" destination="lSb-2r-hxm" id="VFH-ZI-5yS"/>
+                        <outlet property="register" destination="57e-FP-MrS" id="lbk-GP-jcv"/>
+                        <outlet property="registerButton" destination="57e-FP-MrS" id="4ar-cS-R61"/>
+                        <outlet property="registrationSignup" destination="57e-FP-MrS" id="kNr-TS-wZu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hg9-oj-E4f" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -693,7 +707,7 @@
         <!--View Controller-->
         <scene sceneID="J7W-4P-YOp">
             <objects>
-                <viewController id="70A-BO-mad" sceneMemberID="viewController">
+                <viewController id="70A-BO-mad" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="sO4-ZU-GX8"/>
                         <viewControllerLayoutGuide type="bottom" id="2os-lx-a2a"/>
@@ -730,6 +744,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="confirmButton:" destination="70A-BO-mad" eventType="touchUpInside" id="mSI-Wr-sSP"/>
                                     <segue destination="tWz-57-5m4" kind="modal" modalTransitionStyle="crossDissolve" id="01c-IN-ALi"/>
                                 </connections>
                             </button>
@@ -745,6 +760,9 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="sendAgainButton:" destination="70A-BO-mad" eventType="touchUpInside" id="YoW-nI-jdm"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Confirmation Code" minimumFontSize="30" translatesAutoresizingMaskIntoConstraints="NO" id="Wyd-lO-wNo">
                                 <rect key="frame" x="140" y="246" width="320" height="30"/>
@@ -786,6 +804,13 @@
                             <constraint firstAttribute="centerX" secondItem="BGq-eC-8EH" secondAttribute="centerX" id="xLw-gE-o3u"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="confirmButton" destination="LAt-vK-Ong" id="igC-Mg-JtT"/>
+                        <outlet property="confirmCode" destination="Wyd-lO-wNo" id="9XY-D7-WQ0"/>
+                        <outlet property="confirmationcode" destination="Wyd-lO-wNo" id="gqZ-vP-Pxi"/>
+                        <outlet property="confirmcode" destination="LAt-vK-Ong" id="Scp-dQ-iaZ"/>
+                        <outlet property="sendAgainButton" destination="dBI-Qb-QTU" id="n2X-Kv-MHH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="swq-Me-qkB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -796,7 +821,7 @@
         <image name="klogo.png" width="222" height="76"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="erp-MV-5gc"/>
-        <segue reference="P74-IV-o3Y"/>
+        <segue reference="nkS-xp-13C"/>
+        <segue reference="01c-IN-ALi"/>
     </inferredMetricsTieBreakers>
 </document>
