@@ -1614,6 +1614,9 @@ const int FrontViewPositionNone = 0xff;
         }
     }
 }
+@synthesize addName,addPhoneNo;
+NSString *addname=@"";
+NSString *addpno=@"";
 
 
 // Load any defined front/rear controllers from the storyboard
@@ -1644,6 +1647,20 @@ const int FrontViewPositionNone = 0xff;
 }
 
 
+- (IBAction)addAddressBook:(id)sender {
+    
+    
+    // Call address Book
+}
+- (IBAction)addContact:(id)sender {
+    addname = addName.text;
+    addpno = addPhoneNo.text;
+    
+    NSLog(@"Name of Person who is going to add..:%@",addName);
+    NSLog(@"Phone Number of Person..:%@",addPhoneNo);
+    // add contact api call
+    
+}
 @end
 
 

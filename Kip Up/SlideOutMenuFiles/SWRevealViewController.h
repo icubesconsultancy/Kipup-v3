@@ -193,7 +193,7 @@ typedef enum
 // to perform user triggered postion change of the controller views. This is ussually added to a
 // button on top left or right of the frontViewController
 - (IBAction)revealToggle:(id)sender;
-- (IBAction)rightRevealToggle:(id)sender; // <-- simetric implementation of the above for the rightViewController
+//- (IBAction)rightRevealToggle:(id)sender; // <-- simetric implementation of the above for the rightViewController
 
 // The following method will provide a panGestureRecognizer suitable to be added to any view
 // in order to perform usual drag and swipe gestures to reveal the rear views. This is usually added to the top bar
@@ -265,6 +265,20 @@ typedef enum
 // Moreover you can assign a delegate to let the class inform you on positions and animation activity.
 
 // Delegate
+@property (strong, nonatomic) IBOutlet UIButton *addAddressBookButton;
+
+- (IBAction)addAddressBook:(id)sender;
+
+@property (strong, nonatomic) IBOutlet UITextField *addName;
+
+@property (strong, nonatomic) IBOutlet UITextField *addPhoneNo;
+
+@property (strong, nonatomic) IBOutlet UIButton *addContactButton;
+- (IBAction)addContact:(id)sender;
+
+
+
+
 @property (nonatomic,weak) id<SWRevealViewControllerDelegate> delegate;
 
 @end
